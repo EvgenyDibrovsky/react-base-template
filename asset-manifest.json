@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-base-template/static/css/main.977c6e78.css",
-    "main.js": "/react-base-template/static/js/main.c90f05b3.js",
+    "main.js": "/react-base-template/static/js/main.f1730e28.js",
     "static/media/mastercard.svg": "/react-base-template/static/media/mastercard.89665a8f41463a5ba491461af87d30d7.svg",
     "static/media/paypal.svg": "/react-base-template/static/media/paypal.725e3d7faaeccb909b53ccf47b0a8bdd.svg",
     "static/media/catalog.svg": "/react-base-template/static/media/catalog.38ad1bfddafc752b8cb80484e1688773.svg",
@@ -9,10 +9,10 @@
     "static/media/visa.svg": "/react-base-template/static/media/visa.50575bd5ec9ab292f74e674d9c10e789.svg",
     "static/media/getFetch.cjs": "/react-base-template/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.977c6e78.css.map": "/react-base-template/static/css/main.977c6e78.css.map",
-    "main.c90f05b3.js.map": "/react-base-template/static/js/main.c90f05b3.js.map"
+    "main.f1730e28.js.map": "/react-base-template/static/js/main.f1730e28.js.map"
   },
   "entrypoints": [
     "static/css/main.977c6e78.css",
-    "static/js/main.c90f05b3.js"
+    "static/js/main.f1730e28.js"
   ]
 }
