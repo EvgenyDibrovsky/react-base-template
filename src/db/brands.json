@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "image": "/images/brands/mcdonald.svg",
+        "image": "/image/brands/mcdonald.svg",
         "title": "Limited Edition",
         "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, quisquam consequuntur inventore eligendi provident modi nostrum",
         "link": "https://mcdonalds.com/"
@@ -18,14 +18,14 @@
     {
 
       "id": 3,
-        "image": "/images/brands/facebook.svg",
+        "image": "/image/brands/facebook.svg",
         "title": "facebook",
         "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, quisquam consequuntur inventore eligendi provident modi nostrum",
         "link": "https://facebook.com/"
       },    
       {
         "id": 4,
-          "image": "/images/brands/photoshop.svg",
+          "image": "/image/brands/photoshop.svg",
           "title": "photoshop",
           "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, quisquam consequuntur inventore eligendi provident modi nostrum",
           "link": "https://photoshop.com/"
