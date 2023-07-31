@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-base-template/static/css/main.59dffbfd.css",
-    "main.js": "/react-base-template/static/js/main.a2a07b56.js",
+    "main.css": "/react-base-template/static/css/main.99d67dfa.css",
+    "main.js": "/react-base-template/static/js/main.74abac2a.js",
     "static/media/mastercard.svg": "/react-base-template/static/media/mastercard.89665a8f41463a5ba491461af87d30d7.svg",
     "static/media/paypal.svg": "/react-base-template/static/media/paypal.725e3d7faaeccb909b53ccf47b0a8bdd.svg",
     "static/media/catalog.svg": "/react-base-template/static/media/catalog.38ad1bfddafc752b8cb80484e1688773.svg",
     "index.html": "/react-base-template/index.html",
     "static/media/visa.svg": "/react-base-template/static/media/visa.50575bd5ec9ab292f74e674d9c10e789.svg",
     "static/media/getFetch.cjs": "/react-base-template/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.59dffbfd.css.map": "/react-base-template/static/css/main.59dffbfd.css.map",
-    "main.a2a07b56.js.map": "/react-base-template/static/js/main.a2a07b56.js.map"
+    "main.99d67dfa.css.map": "/react-base-template/static/css/main.99d67dfa.css.map",
+    "main.74abac2a.js.map": "/react-base-template/static/js/main.74abac2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.59dffbfd.css",
-    "static/js/main.a2a07b56.js"
+    "static/css/main.99d67dfa.css",
+    "static/js/main.74abac2a.js"
   ]
 }
