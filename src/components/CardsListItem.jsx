@@ -4,7 +4,7 @@ export default function CardsListItem({ image, title, text, link }) {
       <a href={link} target="_blank" rel="noopener noreferrer">
         <div className="relative flex items-center justify-center">
           <img
-            src={process.env.PUBLIC_URL + image}
+            src={image}
             alt={title}
             className="h-40 p-4 transition-transform duration-200 ease-in-out group-hover:scale-90"
           />
