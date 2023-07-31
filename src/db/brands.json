@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image": "/brands/coca-cola.svg",
+      "image": "/image/brands/coca-cola.svg",
       "title": "Limited Edition",
       "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, quisquam consequuntur inventore eligendi provident modi nostrum",
       "link": "https://coca-cola.com"
@@ -10,7 +10,7 @@
     },
     {
         "id": 2,
-        "image": "/brands/mcdonald.svg",
+        "image": "/images/brands/mcdonald.svg",
         "title": "Limited Edition",
         "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, quisquam consequuntur inventore eligendi provident modi nostrum",
         "link": "https://mcdonalds.com/"
@@ -18,14 +18,14 @@
     {
 
       "id": 3,
-        "image": "/brands/facebook.svg",
+        "image": "/images/brands/facebook.svg",
         "title": "facebook",
         "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, quisquam consequuntur inventore eligendi provident modi nostrum",
         "link": "https://facebook.com/"
       },    
       {
         "id": 4,
-          "image": "/brands/photoshop.svg",
+          "image": "/images/brands/photoshop.svg",
           "title": "photoshop",
           "text": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, quisquam consequuntur inventore eligendi provident modi nostrum",
           "link": "https://photoshop.com/"
