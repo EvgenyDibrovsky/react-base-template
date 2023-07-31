@@ -13,7 +13,7 @@ export default function ToggleLang() {
     <div>
       <select
         value={i18n.language} // Устанавливаем значение select на текущий язык
-        className="cursor-pointer bg-transparent focus:outline-none font-semibold ml-5 duration-200 hover:text-hoverToggleLang dark:text-white dark:hover:text-yellow-500"
+        className="cursor-pointer bg-transparent focus:outline-none font-semibold duration-200 hover:text-hoverToggleLang dark:text-white dark:hover:text-yellow-500"
         onChange={e => changeLanguage(e.target.value)}
       >
         <option

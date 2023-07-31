@@ -35,8 +35,11 @@ export default function NavHeader({ theme, toggleTheme }) {
           </Link>
         </li>
       </ul>
-      <div className="flex md:flex-row-reverse items-center md:ml-10 z-50">
+      <div className="flex md:flex-row-reverse items-center gap-8 ml-10 z-50">
+        <ToggleLang />
+
         <ToggleTheme theme={theme} toggleTheme={toggleTheme} />
+
         <button
           className="md:hidden block ml-8 text-2xl font-normal text-black dark:text-white duration-200 "
           onClick={() => setIsOpen(!isOpen)}
@@ -44,7 +47,6 @@ export default function NavHeader({ theme, toggleTheme }) {
           {isOpen ? <FaTimes /> : <FaBars />}
         </button>
       </div>
-      <ToggleLang />
     </nav>
   );
 }

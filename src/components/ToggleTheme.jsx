@@ -1,4 +1,5 @@
-import { FaRegLightbulb, FaLightbulb } from 'react-icons/fa';
+// import { FaRegLightbulb, FaLightbulb } from 'react-icons/fa';
+import { BsSun, BsMoon } from 'react-icons/bs';
 
 export default function ToggleTheme({ theme, toggleTheme }) {
   return (
@@ -6,7 +7,7 @@ export default function ToggleTheme({ theme, toggleTheme }) {
       onClick={toggleTheme}
       className="text-switherTheme duration-200 hover:scale-[1.1] text-[1.2rem] dark:text-yellow-500"
     >
-      {theme === 'light' ? <FaRegLightbulb /> : <FaLightbulb />}
+      {theme === 'light' ? <BsSun /> : <BsMoon />}
     </button>
   );
 }
