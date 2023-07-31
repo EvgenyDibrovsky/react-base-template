@@ -33,7 +33,8 @@ export const App = () => {
   }
 
   return (
-    <Router basename={process.env.REACT_APP_PUBLIC_URL}>
+    <Router basename={process.env.PUBLIC_URL}>
+      {/* <Router> */}
       <div>
         <Header theme={theme} toggleTheme={toggleTheme} />
         <Section>
