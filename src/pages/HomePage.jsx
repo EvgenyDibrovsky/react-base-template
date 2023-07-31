@@ -1,5 +1,11 @@
 import CardsList from '../components/CardsList';
+import CountryRegionSelector from '../components/CountryRegionSelector';
 
 export default function HomePage() {
-  return <CardsList />;
+  return (
+    <>
+      <CountryRegionSelector />
+      <CardsList />
+    </>
+  );
 }
