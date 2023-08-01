@@ -1,4 +1,5 @@
 import React from 'react';
+import { withTranslation } from 'react-i18next';
 
 const INITIAL_STATE = {
   email: '',
@@ -29,14 +30,15 @@ class LoginForm extends React.Component {
 
   render() {
     const { email, password } = this.state;
-
+    const { t } = this.props;
     return (
       <form onSubmit={this.handleSubmit}>
         <label>
-          Email
+          {t('email')}
+
           <input
             type="email"
-            placeholder="Enter email"
+            placeholder={t('enter-email')}
             name="email"
             value={email}
             onChange={this.handleChange}
@@ -44,10 +46,11 @@ class LoginForm extends React.Component {
           />
         </label>
         <label>
-          Password
+          {t('password')}
+
           <input
             type="password"
-            placeholder="Enter password"
+            placeholder={t('enter-password')}
             name="password"
             value={password}
             onChange={this.handleChange}
@@ -56,7 +59,7 @@ class LoginForm extends React.Component {
         </label>
 
         <button type="submit" className="btn-sign-up-form">
-          Login
+          {t('login-btn')}
         </button>
 
         <button
@@ -64,11 +67,11 @@ class LoginForm extends React.Component {
           onClick={() => this.props.setSelectedForm('Reset')}
           className="text-textSecondary dark:text-white my-4 mx-auto block transition-all duration-200 hover:underline"
         >
-          Forgot your password?
+          {t('password-recovery')}
         </button>
       </form>
     );
   }
 }
 
-export default LoginForm;
+export default withTranslation()(LoginForm); //

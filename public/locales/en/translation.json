@@ -4,6 +4,17 @@
 "rights reserved": "© 2023 All rights reserved.",
 "logo-text-1": "Catalog",
 "logo-text-2": "of the ",
-"logo-text-3": "most famous companies"
+"logo-text-3": "most famous companies",
+
+"login": "Login",
+"login-btn": "Log in",
+"enter-login": "Enter login",
+"registration": "Registration",
+"email": "Email",
+"enter-email": "Enter email",
+"password": "Password",
+"enter-password": "Enter password",
+"password-recovery": "Forgot your password?",
+"reset-password-btn": "Reset Password"
 }
 

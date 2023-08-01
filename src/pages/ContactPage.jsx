@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 export default function ContactPage() {
   const { t } = useTranslation();
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto h-[calc(100vh-20rem)]">
       <PageTitle title={t('contacts')} />
       <p className="text-xl text-center">Contacts will be here</p>
       <p className="text-xl text-center text-black dark:text-white">

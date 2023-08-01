@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 export default function AboutPage() {
   const { t } = useTranslation();
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto h-[calc(100vh-20rem)]">
       <PageTitle title={t('about-us')} />
       <p className="text-xl text-center">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,

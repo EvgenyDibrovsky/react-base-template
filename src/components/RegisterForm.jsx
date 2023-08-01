@@ -1,4 +1,5 @@
 import React from 'react';
+import { withTranslation } from 'react-i18next';
 
 const INITIAL_STATE = {
   login: '',
@@ -30,25 +31,25 @@ class RegisterForm extends React.Component {
 
   render() {
     const { login, email, password } = this.state;
-
+    const { t } = this.props;
     return (
       <form onSubmit={this.handleSubmit}>
         <label className="text-black dark:text-white">
-          Name
+          {t('login')}
           <input
             type="text"
-            placeholder="Enter login"
+            placeholder={t('enter-login')}
             name="login"
             value={login}
             onChange={this.handleChange}
-            className="w-full h-10 bg-white dark:bg-black border border-borderLabelForm dark:border-yellow-500 px-2 rounded-md focus:outline-none mt-2 mb-5"
+            className="w-full h-10 bg-white border border-borderLabelForm dark:border-yellow-500 px-2 rounded-md focus:outline-none mt-2 mb-5"
           />
         </label>
         <label>
-          Email
+          {t('email')}
           <input
             type="email"
-            placeholder="Enter email"
+            placeholder={t('enter-email')}
             name="email"
             value={email}
             onChange={this.handleChange}
@@ -56,10 +57,10 @@ class RegisterForm extends React.Component {
           />
         </label>
         <label>
-          Password
+          {t('password')}
           <input
             type="password"
-            placeholder="Enter password"
+            placeholder={t('enter-password')}
             name="password"
             value={password}
             onChange={this.handleChange}
@@ -68,11 +69,11 @@ class RegisterForm extends React.Component {
         </label>
 
         <button type="submit" className="btn-sign-up-form">
-          Registration
+          {t('registration')}
         </button>
       </form>
     );
   }
 }
 
-export default RegisterForm;
+export default withTranslation()(RegisterForm); // Оборачиваем RegisterForm в HOC withTranslation

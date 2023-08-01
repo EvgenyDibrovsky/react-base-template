@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { withTranslation } from 'react-i18next';
 const INITIAL_STATE = {
   email: '',
 };
@@ -28,14 +28,14 @@ class RessetForm extends React.Component {
 
   render() {
     const { email } = this.state;
-
+    const { t } = this.props;
     return (
       <form onSubmit={this.handleSubmit}>
         <label>
-          Email
+          {t('email')}
           <input
             type="email"
-            placeholder="Enter email"
+            placeholder={t('enter-email')}
             name="email"
             value={email}
             onChange={this.handleChange}
@@ -44,11 +44,11 @@ class RessetForm extends React.Component {
         </label>
 
         <button type="submit" className="btn-sign-up-form">
-          Resset Password
+          {t('reset-password-btn')}
         </button>
       </form>
     );
   }
 }
 
-export default RessetForm;
+export default withTranslation()(RessetForm); //

@@ -1,4 +1,6 @@
+import { useTranslation } from 'react-i18next';
 export default function SelectAuthForm({ selectedForm, setSelectedForm }) {
+  const { t } = useTranslation();
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-4 my-5">
       <button
@@ -9,7 +11,7 @@ export default function SelectAuthForm({ selectedForm, setSelectedForm }) {
             : 'text-btnAuthForm dark:text-yellow-500 border-btnAuthForm dark:border-yellow-500 hover:bg-btnAuthForm  dark:hover:bg-yellow-500 hover:text-white hover:dark:text-black'
         }`}
       >
-        Login
+        {t('login-btn')}
       </button>
       <button
         onClick={() => setSelectedForm('Register')}
@@ -19,7 +21,7 @@ export default function SelectAuthForm({ selectedForm, setSelectedForm }) {
             : 'text-btnAuthForm dark:text-yellow-500 border-btnAuthForm dark:border-yellow-500 hover:bg-btnAuthForm  dark:hover:bg-yellow-500 hover:text-white hover:dark:text-black'
         }`}
       >
-        Registration
+        {t('registration')}
       </button>
     </div>
   );
