@@ -10,6 +10,6 @@
 
 @layer components {
   .btn-sign-up-form {
-    @apply flex items-center justify-center h-12 w-full transition-all duration-200 bg-btnSignUpForm border border-btnSignUpForm  text-white text-lg rounded-md hover:bg-transparent hover:text-textSecondary;
+    @apply flex items-center justify-center h-12 w-full transition-all duration-200 border bg-white dark:bg-black border-btnSignUpForm dark:border-yellow-500 text-btnSignUpForm dark:text-yellow-500 text-lg rounded-md hover:bg-btnSignUpForm hover:text-white hover:dark:bg-yellow-500 hover:dark:text-black;
   }
 }

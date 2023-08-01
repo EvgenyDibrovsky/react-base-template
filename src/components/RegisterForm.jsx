@@ -41,7 +41,7 @@ class RegisterForm extends React.Component {
             name="login"
             value={login}
             onChange={this.handleChange}
-            className="w-full h-10 bg-white border border-borderLabelForm px-2 rounded-md focus:outline-none mt-2 mb-5"
+            className="w-full h-10 bg-white dark:bg-black border border-borderLabelForm dark:border-yellow-500 px-2 rounded-md focus:outline-none mt-2 mb-5"
           />
         </label>
         <label>
@@ -52,7 +52,7 @@ class RegisterForm extends React.Component {
             name="email"
             value={email}
             onChange={this.handleChange}
-            className="w-full h-10 bg-white border border-borderLabelForm px-2 rounded-md focus:outline-none mt-2 mb-5"
+            className="w-full h-10 bg-white dark:bg-black border border-borderLabelForm dark:border-yellow-500 px-2 rounded-md focus:outline-none mt-2 mb-5"
           />
         </label>
         <label>
@@ -63,7 +63,7 @@ class RegisterForm extends React.Component {
             name="password"
             value={password}
             onChange={this.handleChange}
-            className="w-full h-10 bg-white border border-borderLabelForm px-2 rounded-md focus:outline-none mt-2 mb-5"
+            className="w-full h-10 bg-white dark:bg-black border border-borderLabelForm dark:border-yellow-500 px-2 rounded-md focus:outline-none mt-2 mb-5"
           />
         </label>
 

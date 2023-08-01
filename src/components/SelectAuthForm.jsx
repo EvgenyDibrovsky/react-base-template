@@ -1,22 +1,22 @@
 export default function SelectAuthForm({ selectedForm, setSelectedForm }) {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-1 my-5">
+    <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-1 gap-4 my-5">
       <button
         onClick={() => setSelectedForm('Login')}
-        className={`h-10 flex items-center justify-center rounded-md border transition-all duration-200 border-btnAuthForm dark:border-yellow-500 text-btnAuthForm dark:text-yellow-500 hover:text-white hover:bg-btnAuthForm hover:dark:bg-yellow-500 hover:dark:text-black ${
+        className={`h-10 flex items-center justify-center rounded-md border transition-all duration-200${
           selectedForm === 'Login'
-            ? 'bg-btnAuthForm text-white dark:bg-yellow-500 dark:text-black' // Удалить запятую
-            : 'text-btnAuthForm dark:text-black'
+            ? 'border-btnAuthForm dark:border-yellow-500 bg-btnAuthForm dark:bg-yellow-500 text-white dark:text-black ' // Удалить запятую
+            : 'text-btnAuthForm dark:text-yellow-500 border-btnAuthForm dark:border-yellow-500 hover:bg-btnAuthForm  dark:hover:bg-yellow-500 hover:text-white hover:dark:text-black'
         }`}
       >
         Login
       </button>
       <button
         onClick={() => setSelectedForm('Register')}
-        className={`h-10 flex items-center justify-center rounded-md border transition-all duration-200 border-btnAuthForm dark:border-yellow-500 text-btnAuthForm dark:text-yellow-500 hover:text-white hover:bg-btnAuthForm hover:dark:bg-yellow-500 hover:dark:text-black ${
+        className={`h-10 flex items-center justify-center rounded-md border transition-all duration-200${
           selectedForm === 'Register'
-            ? 'bg-btnAuthForm text-white  dark:bg-yellow-500 dark:text-black' // Удалить запятую
-            : 'text-btnAuthForm dark:text-black'
+            ? 'border-btnAuthForm dark:border-yellow-500 bg-btnAuthForm dark:bg-yellow-500 text-white dark:text-black ' // Удалить запятую
+            : 'text-btnAuthForm dark:text-yellow-500 border-btnAuthForm dark:border-yellow-500 hover:bg-btnAuthForm  dark:hover:bg-yellow-500 hover:text-white hover:dark:text-black'
         }`}
       >
         Registration

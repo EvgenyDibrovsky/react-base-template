@@ -24,9 +24,15 @@ export default function ToggleLang() {
         </option>
         <option
           className="bg-transparent text-black dark:text-black"
-          value="ru"
+          value="pl"
         >
-          RU
+          PL
+        </option>
+        <option
+          className="bg-transparent text-black dark:text-black"
+          value="uk"
+        >
+          UK
         </option>
       </select>
     </div>
