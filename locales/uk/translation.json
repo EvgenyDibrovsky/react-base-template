@@ -4,6 +4,17 @@
     "rights reserved": "© 2023 Всі права захищені",
     "logo-text-1": "Каталог ",
     "logo-text-2": "найвідоміших",
-    "logo-text-3": "компаній"
-    }
+    "logo-text-3": "компаній",
+
+    "login": "Логiн",
+    "login-btn": "Увійти",
+    "enter-login": "Впишiть свiй логiн",
+    "registration": "Зареєструватися",
+    "email": "Email",
+    "enter-email": "Впишiть свiй email",
+    "password": "Пароль",
+    "enter-password": "Введіть пароль",
+    "password-recovery": "Забули ваш пароль?",
+    "reset-password-btn": "Скинути пароль"
+}
     
