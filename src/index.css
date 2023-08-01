@@ -7,3 +7,9 @@
     @apply text-black dark:text-white;
   }
 }
+
+@layer components {
+  .btn-sign-up-form {
+    @apply flex items-center justify-center h-12 w-full transition-all duration-200 bg-btnSignUpForm border border-btnSignUpForm  text-white text-lg rounded-md hover:bg-transparent hover:text-textSecondary;
+  }
+}
