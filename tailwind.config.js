@@ -46,6 +46,7 @@ module.exports = {
         hoverMenuHeaader: '#36a6de',
         hoverToggleLang: '#36a6de',
         switherTheme: '#36a6de',
+        colorLogo: '#36a6de',
       },
     },
   },

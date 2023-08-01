@@ -1,6 +1,6 @@
 export default function CardsListItem({ image, title, text, link }) {
   return (
-    <li className="group h-40 relative flex flex-col justify-between shadow-md dark:shadow-white rounded-md overflow-hidden">
+    <li className="group h-40 relative flex flex-col justify-between shadow-md transition-all duration-500 dark:shadow-white rounded-md overflow-hidden">
       <a href={link} target="_blank" rel="noopener noreferrer">
         <div className="relative flex items-center justify-center">
           <img
