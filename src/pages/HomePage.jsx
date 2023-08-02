@@ -4,17 +4,15 @@ import { useState } from 'react';
 
 export default function HomePage() {
   const [selectedCountry, setSelectedCountry] = useState('');
-  const [selectedRegion, setSelectedRegion] = useState(''); // добавьте это
+  const [selectedRegion, setSelectedRegion] = useState('');
 
   return (
     <div>
       <CountryRegionSelector
         onCountryChange={setSelectedCountry}
         onRegionChange={setSelectedRegion}
-      />{' '}
-      {/* передайте setSelectedRegion в качестве пропа */}
-      <CardsList country={selectedCountry} region={selectedRegion} />{' '}
-      {/* передайте selectedRegion в качестве пропа */}
+      />
+      <CardsList country={selectedCountry} region={selectedRegion} />
     </div>
   );
 }
