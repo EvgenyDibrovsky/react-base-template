@@ -32,5 +32,6 @@
     "select-country": "Wybierz kraj",
     "select-region": "Wybierz region",
     "not-found": "Strona nie znaleziona",
-    "404": "404"
+    "404": "404",
+    "nothing-found": "Przepraszamy, nic nie znaleziono."
 }

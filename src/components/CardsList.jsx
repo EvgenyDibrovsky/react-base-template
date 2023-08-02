@@ -1,11 +1,12 @@
 import dbBrands from '../db/brands.json';
 import { useState, useEffect } from 'react';
 import CardsListItem from './CardsListItem';
+import { useTranslation } from 'react-i18next';
 
 export default function CardsList({ country, region }) {
   // добавьте region в качестве пропа
   const [data, setData] = useState([]);
-
+  const { t } = useTranslation();
   useEffect(() => {
     let filteredData = dbBrands;
 
@@ -24,7 +25,7 @@ export default function CardsList({ country, region }) {
     // если данные не найдены, отобразите сообщение об ошибке
     return (
       <p className="text-[2rem] text-black dark:text-white text-center">
-        Sorry, nothing found.
+        {t('nothing-found')}
       </p>
     );
   }

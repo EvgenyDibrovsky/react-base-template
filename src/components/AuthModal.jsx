@@ -20,7 +20,7 @@ export default function AuthModal({ closeModal, children }) {
       onClick={closeModal}
     >
       <div
-        className="relative w-11/12 max-w-[28rem] h-auto rounded-md transition-all duration-200 bg-white text-black shadow-md dark:bg-black dark:text-white dark:shadow-white px-5 py-10"
+        className="relative w-11/12 max-w-[28rem] h-auto rounded-md transition-all duration-200 bg-white text-black shadow-md-up dark:bg-black dark:text-white dark:shadow-white px-5 py-10"
         onClick={e => e.stopPropagation()} // Останавливаем всплытие события, чтобы модальное окно не закрывалось при клике внутри
       >
         <BsX
