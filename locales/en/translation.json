@@ -27,6 +27,11 @@
     "enter-message-subject": "Enter message-subject",
     "message": "Message",
     "enter-message": "Enter message",
-    "send": "Send"
+    "send": "Send",
+    "reset": "Reset",
+    "select-country": "Select country",
+    "select-region": "Select region",
+    "not-found": "Page not found",
+    "404": "404"
 }
 
