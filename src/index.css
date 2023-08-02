@@ -6,6 +6,9 @@
   h1 {
     @apply text-black dark:text-white;
   }
+  .content-text p {
+    @apply mb-4;
+  }
 }
 
 @layer components {

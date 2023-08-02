@@ -11,8 +11,8 @@ class RegisterForm extends React.Component {
   state = { ...INITIAL_STATE };
 
   handleChange = evt => {
-    const { name, value } = evt.target;
-    this.setState({ [name]: value });
+    const { name, value, type, checked } = evt.target;
+    this.setState({ [name]: type === 'checkbox' ? checked : value });
   };
 
   handleSubmit = evt => {
@@ -30,7 +30,7 @@ class RegisterForm extends React.Component {
   };
 
   render() {
-    const { login, email, password } = this.state;
+    const { login, email, password, agreed } = this.state;
     const { t } = this.props;
     return (
       <form onSubmit={this.handleSubmit}>
@@ -67,8 +67,27 @@ class RegisterForm extends React.Component {
             className="w-full h-10 bg-white dark:bg-black border border-borderLabelForm dark:border-white px-2 rounded-md focus:outline-none mt-2 mb-5"
           />
         </label>
-
-        <button type="submit" className="btn-sign-up-form">
+        <span className="flex items-center">
+          <label className="flex items-center">
+            <input
+              type="checkbox"
+              name="agreed"
+              checked={agreed}
+              onChange={this.handleChange}
+              className="mr-4 appearance-none inline-block h-4 w-4 border-4 border-white dark:border-black rounded outline outline-2 outline-checkboxColor dark:outline-yellow-500 bg-white dark:bg-black  checked:bg-checkboxColor dark:checked:bg-yellow-500  "
+            />
+            {t('agreed')}
+          </label>
+          <a
+            href="/terms-use-page"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-textSecondary dark:text-yellow-500 my-4 mx-auto block transition-all duration-200 hover:underline"
+          >
+            ({t('agreed-read')})
+          </a>
+        </span>
+        <button type="submit" disabled={!agreed} className="btn-sign-up-form">
           {t('registration')}
         </button>
       </form>

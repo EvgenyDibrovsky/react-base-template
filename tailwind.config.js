@@ -54,6 +54,7 @@ module.exports = {
         borderLabelForm: '#36a6de',
         btnSignUpForm: '#36a6de',
         btnAuthForm: '#36a6de',
+        checkboxColor: '#36a6de',
       },
     },
   },

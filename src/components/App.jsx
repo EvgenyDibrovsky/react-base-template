@@ -7,6 +7,7 @@ import Container from './Container';
 import About from '../pages/AboutPage';
 import Contact from '../pages/ContactPage';
 import HomePage from '../pages/HomePage';
+import TermsUsePage from '../pages/TermsUsePage';
 import Loading from './Loader';
 
 export const App = () => {
@@ -43,6 +44,7 @@ export const App = () => {
               <Route path="/" element={<HomePage />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/terms-use-page" element={<TermsUsePage />} />
             </Routes>
           </Container>
         </Section>

@@ -15,6 +15,9 @@
     "password": "Hasło",
     "enter-password": "Wprowadź hasło",
     "password-recovery": "Zapomniałeś hasła?",
-    "reset-password-btn": "Zresetuj hasło"
+    "reset-password-btn": "Zresetuj hasło",
+    "agreed": "Zgadzam się na warunki",
+    "agreed-read": "Przeczytaj warunki",
+    "terms-of-Use-title": "Warunki korystania" 
 }
     

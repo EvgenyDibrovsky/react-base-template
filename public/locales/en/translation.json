@@ -15,6 +15,12 @@
 "password": "Password",
 "enter-password": "Enter password",
 "password-recovery": "Forgot your password?",
-"reset-password-btn": "Reset Password"
+"reset-password-btn": "Reset Password",
+"agreed": "Agree to terms",
+"agreed-read": "Read the terms",
+"terms-of-Use-title": "Terms of Use"
+
+
+
 }
 

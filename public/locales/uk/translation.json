@@ -15,6 +15,9 @@
     "password": "Пароль",
     "enter-password": "Введіть пароль",
     "password-recovery": "Забули ваш пароль?",
-    "reset-password-btn": "Скинути пароль"
+    "reset-password-btn": "Скинути пароль",
+    "agreed": "Погоджуюсь з умовами",
+    "agreed-read": "Прочитати умови",
+    "terms-of-Use-title": "Варунки користання"
 }
     
