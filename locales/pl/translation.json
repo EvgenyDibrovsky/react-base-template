@@ -18,6 +18,13 @@
     "reset-password-btn": "Zresetuj hasło",
     "agreed": "Zgadzam się na warunki",
     "agreed-read": "Przeczytaj warunki",
-    "terms-of-Use-title": "Warunki korystania" 
+    "terms-of-Use-title": "Warunki korystania",
+    "name": "Imię",
+    "enter-name": "Wpisz Imię",
+    "message-subject": "Temat wiadomości",
+    "enter-message-subject": "Wpisz temat wiadomości",
+    "message": "Wiadomość",
+    "enter-message": "Napisz wiadomość",
+    "send": "Wyślij"
 }
     

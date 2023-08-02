@@ -1,26 +1,30 @@
 {
-"about-us": "About US",
-"contacts": "Contacts",
-"rights reserved": "© 2023 All rights reserved.",
-"logo-text-1": "Catalog",
-"logo-text-2": "of the ",
-"logo-text-3": "most famous companies",
+    "about-us": "About US",
+    "contacts": "Contacts",
+    "rights reserved": "© 2023 All rights reserved.",
+    "logo-text-1": "Catalog",
+    "logo-text-2": "of the ",
+    "logo-text-3": "most famous companies",
 
-"login": "Login",
-"login-btn": "Log in",
-"enter-login": "Enter login",
-"registration": "Registration",
-"email": "Email",
-"enter-email": "Enter email",
-"password": "Password",
-"enter-password": "Enter password",
-"password-recovery": "Forgot your password?",
-"reset-password-btn": "Reset Password",
-"agreed": "Agree to terms",
-"agreed-read": "Read the terms",
-"terms-of-Use-title": "Terms of Use"
-
-
-
+    "login": "Login",
+    "login-btn": "Log in",
+    "enter-login": "Enter login",
+    "registration": "Registration",
+    "email": "Email",
+    "enter-email": "Enter email",
+    "password": "Password",
+    "enter-password": "Enter password",
+    "password-recovery": "Forgot your password?",
+    "reset-password-btn": "Reset Password",
+    "agreed": "Agree to terms",
+    "agreed-read": "Read the terms",
+    "terms-of-Use-title": "Terms of Use",
+    "name": "Name",
+    "enter-name": "Enter name",
+    "message-subject": "Message subject",
+    "enter-message-subject": "Enter message-subject",
+    "message": "Message",
+    "enter-message": "Enter message",
+    "send": "Send"
 }
 

@@ -18,6 +18,13 @@
     "reset-password-btn": "Скинути пароль",
     "agreed": "Погоджуюсь з умовами",
     "agreed-read": "Прочитати умови",
-    "terms-of-Use-title": "Варунки користання"
+    "terms-of-Use-title": "Варунки користання",
+    "name": "Ім'я",
+    "enter-name": "Введіть ім'я",
+    "message-subject": "Тема повідомлення",
+    "enter-message-subject": "Введіть тему повідомлення",
+    "message": "Повідомлення",
+    "enter-message": "Напишіть повідомлення",
+    "send": "Надіслати"
 }
     
