@@ -1,4 +1,6 @@
 import { useTranslation } from 'react-i18next';
+import { BsPersonPlus, BsPerson } from 'react-icons/bs';
+
 export default function SelectAuthForm({ selectedForm, setSelectedForm }) {
   const { t } = useTranslation();
   return (
@@ -11,8 +13,12 @@ export default function SelectAuthForm({ selectedForm, setSelectedForm }) {
             : 'text-btnAuthForm dark:text-yellow-500 border-btnAuthForm dark:border-yellow-500 hover:bg-btnAuthForm  dark:hover:bg-yellow-500 hover:text-white hover:dark:text-black'
         }`}
       >
-        {t('login-btn')}
+        <span className="flex items-center justify-center gap-2">
+          <BsPerson />
+          {t('login-btn')}
+        </span>
       </button>
+
       <button
         onClick={() => setSelectedForm('Register')}
         className={`h-10 flex items-center justify-center rounded-md border transition-all duration-200${
@@ -21,7 +27,10 @@ export default function SelectAuthForm({ selectedForm, setSelectedForm }) {
             : 'text-btnAuthForm dark:text-yellow-500 border-btnAuthForm dark:border-yellow-500 hover:bg-btnAuthForm  dark:hover:bg-yellow-500 hover:text-white hover:dark:text-black'
         }`}
       >
-        {t('registration')}
+        <span className="flex items-center justify-center gap-2">
+          <BsPersonPlus />
+          {t('registration')}
+        </span>
       </button>
     </div>
   );
