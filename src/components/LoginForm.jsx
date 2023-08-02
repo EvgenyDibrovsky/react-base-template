@@ -33,7 +33,7 @@ class LoginForm extends React.Component {
     const { t } = this.props;
     return (
       <form onSubmit={this.handleSubmit}>
-        <label>
+        <label className="text-black dark:text-white">
           {t('email')}
 
           <input
@@ -42,10 +42,11 @@ class LoginForm extends React.Component {
             name="email"
             value={email}
             onChange={this.handleChange}
+            required
             className="w-full h-10 bg-white dark:bg-black border border-borderLabelForm dark:border-white px-2 rounded-md focus:outline-none mt-2 mb-5"
           />
         </label>
-        <label>
+        <label className="text-black dark:text-white">
           {t('password')}
 
           <input
@@ -54,6 +55,7 @@ class LoginForm extends React.Component {
             name="password"
             value={password}
             onChange={this.handleChange}
+            required
             className="w-full h-10 bg-white dark:bg-black  border border-borderLabelForm dark:border-white px-2 rounded-md focus:outline-none mt-2 mb-5"
           />
         </label>

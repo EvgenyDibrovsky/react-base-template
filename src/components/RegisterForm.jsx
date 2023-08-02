@@ -42,10 +42,11 @@ class RegisterForm extends React.Component {
             name="login"
             value={login}
             onChange={this.handleChange}
+            required
             className="w-full h-10 bg-white border border-borderLabelForm dark:border-white px-2 rounded-md focus:outline-none mt-2 mb-5"
           />
         </label>
-        <label>
+        <label className="text-black dark:text-white">
           {t('email')}
           <input
             type="email"
@@ -53,10 +54,11 @@ class RegisterForm extends React.Component {
             name="email"
             value={email}
             onChange={this.handleChange}
+            required
             className="w-full h-10 bg-white dark:bg-black border border-borderLabelForm dark:border-white px-2 rounded-md focus:outline-none mt-2 mb-5"
           />
         </label>
-        <label>
+        <label className="text-black dark:text-white">
           {t('password')}
           <input
             type="password"
@@ -64,6 +66,7 @@ class RegisterForm extends React.Component {
             name="password"
             value={password}
             onChange={this.handleChange}
+            required
             className="w-full h-10 bg-white dark:bg-black border border-borderLabelForm dark:border-white px-2 rounded-md focus:outline-none mt-2 mb-5"
           />
         </label>
@@ -74,6 +77,7 @@ class RegisterForm extends React.Component {
               name="agreed"
               checked={agreed}
               onChange={this.handleChange}
+              required
               className="mr-4 appearance-none inline-block h-4 w-4 border-4 border-white dark:border-black rounded outline outline-2 outline-checkboxColor dark:outline-yellow-500 bg-white dark:bg-black  checked:bg-checkboxColor dark:checked:bg-yellow-500  "
             />
             {t('agreed')}
