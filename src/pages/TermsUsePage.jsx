@@ -11,21 +11,6 @@ export default function TermsUsePage() {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quo
         maiores? Eveniet, fugit non ab corporis laudantium a nobis aspernatur
         qui, illum, cum officiis sunt debitis nihil fuga minima expedita.
-      </p>{' '}
-      <p className="text-xl text-center text-black dark:text-white">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quo
-        maiores? Eveniet, fugit non ab corporis laudantium a nobis aspernatur
-        qui, illum, cum officiis sunt debitis nihil fuga minima expedita.
-      </p>{' '}
-      <p className="text-xl text-center text-black dark:text-white">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quo
-        maiores? Eveniet, fugit non ab corporis laudantium a nobis aspernatur
-        qui, illum, cum officiis sunt debitis nihil fuga minima expedita.
-      </p>{' '}
-      <p className="text-xl text-center text-black dark:text-white">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quo
-        maiores? Eveniet, fugit non ab corporis laudantium a nobis aspernatur
-        qui, illum, cum officiis sunt debitis nihil fuga minima expedita.
       </p>
     </div>
   );
