@@ -8,6 +8,7 @@ import About from '../pages/AboutPage';
 import Contact from '../pages/ContactPage';
 import HomePage from '../pages/HomePage';
 import TermsUsePage from '../pages/TermsUsePage';
+import PageNotFound from '../pages/PageNotFound';
 import Loading from './Loader';
 
 export const App = () => {
@@ -45,6 +46,7 @@ export const App = () => {
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/terms-use-page" element={<TermsUsePage />} />
+              <Route path="*" element={<PageNotFound />} />
             </Routes>
           </Container>
         </Section>

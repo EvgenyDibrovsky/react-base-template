@@ -30,6 +30,7 @@
     "send": "Wyślij",
     "reset": "Zresetować",
     "select-country": "Wybierz kraj",
-    "select-region": "Wybierz region"
+    "select-region": "Wybierz region",
+    "not-found": "Strona nie znaleziona",
+    "404": "404"
 }
-    
