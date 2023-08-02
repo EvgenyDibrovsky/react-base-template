@@ -36,7 +36,7 @@ export const App = () => {
 
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      {/* <Router> */}
+      {/* <Router>s */}
       <div>
         <Header theme={theme} toggleTheme={toggleTheme} />
         <Section>
