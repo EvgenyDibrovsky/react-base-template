@@ -7,7 +7,7 @@ export default function ContactPage() {
   return (
     <div className="container mx-auto">
       <PageTitle title={t('contacts')} />
-      <SubTitle subTitle="Contacts will be here" />
+      <SubTitle subTitle={t('sub-contacts')} />
       <ContactForm />
     </div>
   );

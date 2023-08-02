@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 export default function TermsUsePage() {
   const { t } = useTranslation();
   return (
-    <div className="container mx-auto h-[calc(100vh-20rem)] content-text">
+    <div className="container mx-auto content-text">
       <PageTitle title={t('terms-of-Use-title')} />
       <p className="text-xl text-center">Contacts will be here</p>
       <p className="text-xl text-center text-black dark:text-white">
